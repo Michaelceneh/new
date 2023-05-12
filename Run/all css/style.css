@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: black;
+    height: 90vh;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.head i {
+    color: white;
+    cursor: pointer;
+}
+
+.options ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options ul li {
+    margin-left: 20px;
+    list-style: none;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    box-shadow: 2px 2px white;
+}
+
+.dropdown ul li {
+    list-style: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown ul li:hover {
+    color: blue;
+}
+
+.discription {
+    margin-top: 20px;
+}
+
+.discription h3 {
+    text-align: center;
+    color: white;
+}
+
+.discription h4 {
+    color: white;
+}
+
+.past_question {
+    display: none;
+}
+
+.past_question ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.past_question ul li a:hover {
+    color: blue;
+}
+
+
+
+.options ul li a {
+    text-decoration: none;
+    color: white;
+}
+.uni_container img {
+    width: 90px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
